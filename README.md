@@ -16,12 +16,15 @@ Parso is also able to list multiple syntax errors in your python file.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/parso-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/parso-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/parso-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/parso-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/parso/badges/version.svg)](https://anaconda.org/conda-forge/parso)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/parso/badges/downloads.svg)](https://anaconda.org/conda-forge/parso)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-parso-green.svg)](https://anaconda.org/conda-forge/parso) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/parso.svg)](https://anaconda.org/conda-forge/parso) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/parso.svg)](https://anaconda.org/conda-forge/parso) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/parso.svg)](https://anaconda.org/conda-forge/parso) |
 
 Installing parso
 ================
