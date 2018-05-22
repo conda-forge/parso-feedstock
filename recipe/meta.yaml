@@ -1,8 +1,8 @@
 {% set name = "parso" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "62bd6bf7f04ab5c817704ff513ef175328676471bdef3629d4bdd46626f75551" %}
+{% set hash_value = "f0604a40b96e062b0fd99cf134cc2d5cdf66939d0902f8267d938b0d5b26707f" %}
 
 package:
   name: '{{ name|lower }}'
@@ -16,11 +16,12 @@ source:
 build:
   noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
-  build:
+  host:
     - python
+    - pip
     - setuptools
   run:
     - python
