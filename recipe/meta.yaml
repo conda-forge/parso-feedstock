@@ -1,8 +1,8 @@
 {% set name = "parso" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "8162be7570ffb34ec0b8d215d7f3b6c5fab24f51eb3886d6dee362de96b6db94" %}
+{% set hash_value = "68406ebd7eafe17f8e40e15a84b56848eccbf27d7c1feb89e93d8fca395706db" %}
 
 package:
   name: '{{ name|lower }}'
