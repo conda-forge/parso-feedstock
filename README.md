@@ -5,9 +5,13 @@ Home: https://github.com/davidhalter/parso
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/parso-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python Parser
+
+Development: https://github.com/davidhalter/parso
+
+Documentation: https://parso.readthedocs.io/en/latest/
 
 Parso is a Python parser that supports error recovery and round-trip parsing for different Python versions (in multiple Python versions).
 Parso is also able to list multiple syntax errors in your python file.
@@ -118,5 +122,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@iron0012](https://github.com/iron0012/)
 * [@synapticarbors](https://github.com/synapticarbors/)
 
