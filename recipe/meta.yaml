@@ -1,5 +1,5 @@
 {% set name = "parso" %}
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,11 +8,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2b6db14759c528d857eeb9eac559c2166b2554548af39f5198bdfb976f72aa64
+  sha256: 8519430ad07087d4c997fda3a7918f7cfa27cb58972a8c89c2a0295a1c940e9e
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
