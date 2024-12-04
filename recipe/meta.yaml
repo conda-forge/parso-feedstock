@@ -19,16 +19,20 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
 
 test:
-  requires:
-    - python {{ python_min }}
   imports:
     - parso
     - parso.pgen2
     - parso.python
+  commands:
+    - pip check
+  requires:
+    - python {{ python_min }}
+    - pip
 
 about:
   home: https://github.com/davidhalter/parso
